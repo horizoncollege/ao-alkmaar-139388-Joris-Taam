@@ -1,0 +1,22 @@
+* { 
+    margin: auto;
+}
+.container { 
+    display: flex;
+    
+    justify-content: space-around;
+}
+.flex-item { 
+    width: 30%;
+    background-color: green;
+}
+.flex-item a { 
+    display: flex;
+    object-fit: contain;
+}
+.dashboard { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightblue;
+}
